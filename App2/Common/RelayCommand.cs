@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace App2.Common
+namespace HubPageDemo.Common
 {
     /// <summary>
     /// A command whose sole purpose is to relay its functionality 
