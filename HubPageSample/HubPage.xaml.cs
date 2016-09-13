@@ -79,6 +79,7 @@ namespace HubPageSample
         private void NavigationHelper_SaveState(object sender, SaveStateEventArgs e)
         {
             // TODO: Save the unique state of the page here.
+            // Add another comment here.
         }
 
         /// <summary>
