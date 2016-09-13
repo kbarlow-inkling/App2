@@ -3,12 +3,12 @@ using Windows.ApplicationModel.Resources;
 using Windows.Graphics.Display;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using HubPageDemo.Common;
-using HubPageDemo.DataModel;
+using HubPageSample.Common;
+using HubPageSample.DataModel;
 
 // The Hub Application template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
-namespace HubPageDemo
+namespace HubPageSample
 {
     /// <summary>
     /// A page that displays a grouped collection of items.

@@ -4,7 +4,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace HubPageDemo.Common
+namespace HubPageSample.Common
 {
     /// <summary>
     /// NavigationHelper aids in navigation between pages.  It provides commands used to 

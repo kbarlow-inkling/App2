@@ -7,8 +7,8 @@
     <ProjectGuid>{1769D11A-5C51-4E54-8D46-A8F3B1B54F02}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HubPageDemo</RootNamespace>
-    <AssemblyName>HubPageDemo</AssemblyName>
+    <RootNamespace>HubPageSample</RootNamespace>
+    <AssemblyName>HubPageSample</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>

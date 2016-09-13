@@ -14,7 +14,7 @@ using Windows.Storage;
 // responsiveness by initiating the data loading task in the code behind for App.xaml when the app 
 // is first launched.
 
-namespace HubPageDemo.DataModel
+namespace HubPageSample.DataModel
 {
     /// <summary>
     /// Generic item data model.

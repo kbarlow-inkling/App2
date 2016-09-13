@@ -1,12 +1,12 @@
 ﻿using System;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using HubPageDemo.Common;
-using HubPageDemo.DataModel;
+using HubPageSample.Common;
+using HubPageSample.DataModel;
 
 // The Hub Application template is documented at http://go.microsoft.com/fwlink/?LinkID=391641
 
-namespace HubPageDemo
+namespace HubPageSample
 {
     /// <summary>
     /// A page that displays details for a single item within a group.

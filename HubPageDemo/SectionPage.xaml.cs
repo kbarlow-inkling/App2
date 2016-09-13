@@ -2,12 +2,12 @@
 using Windows.ApplicationModel.Resources;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using HubPageDemo.Common;
-using HubPageDemo.DataModel;
+using HubPageSample.Common;
+using HubPageSample.DataModel;
 
 // The Hub Application template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
-namespace HubPageDemo
+namespace HubPageSample
 {
     public sealed partial class SectionPage : Page
     {
@@ -72,14 +72,14 @@ namespace HubPageDemo
         }
 
         /// <summary>
-        /// Shows the details of an item clicked on in the <see cref="HubPageDemo.ItemPage"/>
+        /// Shows the details of an item clicked on in the <see cref="ItemPage"/>
         /// </summary>
         /// <param name="sender">The GridView displaying the item clicked.</param>
         /// <param name="e">Event data that describes the item clicked.</param>
         private void ItemView_ItemClick(object sender, ItemClickEventArgs e)
         {
             var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
-            if (!Frame.Navigate(typeof(HubPageDemo.ItemPage), itemId))
+            if (!Frame.Navigate(typeof(ItemPage), itemId))
             {
                 var resourceLoader = ResourceLoader.GetForCurrentView("Resources");
                 throw new Exception(resourceLoader.GetString("NavigationFailedExceptionMessage"));
