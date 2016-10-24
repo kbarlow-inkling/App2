@@ -2,8 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/HubPageDemo/bin
-/HubPageDemo/obj
-/HubPageSample/bin
-/HubPageSample/obj
+/HubPageExample/bin
+/HubPageExample/obj
 /.vs
